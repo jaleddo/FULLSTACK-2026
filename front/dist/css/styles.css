@@ -1,2 +1,33 @@
-.cuadrado1{ height: 100px;width:100px ;background-color: blue;}
-.cuadraro2{height: 100px;width:100px ;background-color: red;}
+#menu{
+    background-color: #EADBC9;
+}
+
+#gral {
+   display: flex;
+    align-items: center;       
+    justify-content: space-between;
+  
+}
+
+#portada,
+#nosotros{
+    background-color:#F7F1E7;
+}
+
+#pie{
+    background-color: #2B1D14;
+    color:#EADBC9;
+}
+
+
+    
+   #estadisticas {
+    display: flex;
+    justify-content: center;  
+    gap: 40px;
+}
+
+
+
+
+

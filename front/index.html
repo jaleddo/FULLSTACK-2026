@@ -1,38 +1,201 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="dist/css/styles.css">
-</head>
+    <link rel="stylesheet"href="dist/css/mobile.css"></linck>
+     <script src="dist/js/prueba.js" defer ></script>
 <body>
     
 
     
     <main>
-<section id="titulo">
-<div d>
-    <div class="cuadrado1">
-        <h1></h1>
+   <nav id="menu">
+    <div id="gral">
+        <div id="contelogo">
+    <h1 id="logo">Librostore</h1>
+     <p id="slogan">tu biblioteca virtual</p>
     </div>
-    <div class="cuadrado2">
-
+   <div id="contebusqueda">
+    <input id="buscador" type="search" placeholder="ingresa tu busqueda">
+    </div>
+     <div id="conteloguin">
+    <button id="loguin">loguin</button> 
     </div>
 </div>
+    </nav>
 
-</section>
-<section id="cuerpo">
+    <section id="portada">
+       <div class="container-fluid"  >
+            <div class="row">
+                <div class="col-5">
+                    
+<p>Tu biblioteca, abierta a toda hora.
+Leé, escuchá y descubrí libros, revistas y audiolibros desde cualquier dispositivo. Sin filas y sin esperas.
+.</p>
 
+<div id="estadisticas">
+    <p>1.240 Libros</p>
+    <p>320 Revistas</p>
+    <p>480 Audiolibros</p>
+</div>
 
-</section>
+        </div>
+        <div class="col-7">
+            <img src="dist/media/imagen_portada.png" class="portada img-fluid">
 
-<section id="cajas">
+        </div>
+       </div>
+       </div>
+            
 
-</section>
+            
+                
+        
 
+    </section>  
+     <section id="catalogo" class="container my-5">
+
+    <h2>Catálogo</h2>
+    <p>Libros, revistas y audiolibros</p>
+
+    <div class="row row-cols-2 row-cols-md-3 row-cols-lg-5 g-3">
+
+        <div class="col">
+            <div class="alineador1">
+            <img src="dist/media/libro1.png" class="img-fluid w-100" alt="libro1">
+            <button class="btn btn-secondary w-100 mt-2">RESERVAR</button>
+        </div>
+        </div>
+
+        <div class="col">
+            <div class="alineador1">
+            <img src="dist/media/libro2.png" class="img-fluid w-100" alt="libro2">
+            <button class="btn btn-secondary w-100 mt-2">RESERVAR</button>
+        </div>
+        </div>
+
+        <div class="col">
+            <div class="alineador1">
+            <img src="dist/media/libro3.png" class="img-fluid w-100" alt="libro3">
+            <button class="btn btn-secondary w-100 mt-2">RESERVAR</button>
+        </div>
+        </div>
+         <div class="col">
+            <div class="alineador1">
+                <img src="dist/media/audiolibro1.png" class="img-fluid w-100" alt="audiolibro1">
+                <button class="btn btn-secondary w-100 mt-2">RESERVAR</button>
+            </div>
+            </div>
+            <div class="col">
+                <div class="alineador1">
+                <img src="dist/media/revista1.png" class="img-fluid w-100" alt="revista1">
+                <button class="btn btn-secondary w-100 mt-2">RESERVAR</button>
+            </div>
+            </div>
+
+        </div>
+    </section>
+
+     <section id="nosotros">
+       <div class="container-fluid"  >
+            <div class="row">
+                <div class="col-5">
+                    
+<img src="dist/media/sobresonotros.png" class="portada img-fluid">
+
+        </div>
+        <div class="col-7">
+            <p>Sobre nosotros
+Una biblioteca pensada para leer sin barreras.
+Nacimos para acercar la lectura a todos los estudiantes y curiosos. Curamos un catálogo accesible, gratuito y disponible las 24 horas, en cualquier dispositivo.
++12k
+Lectores activos
+24/7
+Acceso abierto
+100%
+Gratuito
+</p>
+
+        </div>
+       </div>
+       </div>
+            </section>
+            <section id="generos" class="container my-5">
+
+    <h2>generos</h2>
+    <p>lnuestas categorias son...</p>
+
+    <div class="row row-cols-2 row-cols-md-3 row-cols-lg-5 g-3">
+
+        <div class="col text-center">
+            <div class="alineador1">
+            <img src="dist/media/1.png" class="img-fluid w-100" alt="1">
+        <p class="mt-2 fw-bold">LIBROS</p>
+        </div>
+        </div>
+
+        <div class="col text-center">
+            <div class="alineador1">
+            <img src="dist/media/2.png" class="img-fluid w-100" alt="2">
+            <p class="mt-2 fw-bold">revistas</p>
+        </div>
+        </div>
+
+        <<div class="col text-center">
+            <div class="alineador1">
+            <img src="dist/media/3.png" class="img-fluid w-100" alt="3">
+            <p class="mt-2 fw-bold">audiolibros</p>
+        </div>
+        </div>
+         <div class="col text-center">
+            <div class="alineador1">
+                <img src="dist/media/4.png" class="img-fluid w-100" alt="4">
+               <p class="mt-2 fw-bold">best sellers</p>
+            </div>
+            </div>
+            
+                
+                
+            
+
+        </div>
+            
+            
 
     </main>
     
+    <footer id="pie" class="py-5">
+        <div class="container">
+            <div class="row">
+ 
+               
+                <div class="col-md-6">
+                    <h5 class="fw-bold">libro store</h5>
+                    <p>Biblioteca virtual abierta para estudiantes y lectores curiosos.</p>
+ 
+                   
+                    <div class="d-flex gap-2 mt-3">
+                        <input type="email" class="form-control" placeholder="Tu email">
+                         <button id="suscribir">suscribirse</button> 
+                    </div>
+                </div>
+ 
+               
+                <div class="col-md-6">
+                    <h5 class="fw-bold">Contacto</h5>
+                    <p class="mb-1">hola@aurora.edu</p>
+                    <p class="mb-1">Av. Lectura 1240, Piso 2</p>
+                    <p class="mb-0">Instagram · YouTube · X</p>
+                </div>
+ 
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
+
 </html>
